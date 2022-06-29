@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+
+* {
+    margin: 0 !important;
+    padding: 0 !important;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Didact Gothic', sans-serif;
+    box-sizing: border-box;
+}
+
+.navBarClass {
+    background-color: #F3F2EE;
+}
+.navActive {
+    color: #86212A;
+}
+.lineColorGrey {
+    height: 3px;
+    background-color: #262626;
+}
+
+.footerBarclass {
+    background-color: #86212A;
+    
+}
+
+.footerBarClassTexto {
+    color: #F3F2EE;
+}
+
+.main {
+    height: calc(100vh - 90px);
+    background-color: #F3F2EE;
+}
+
+.background {
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    color: #f3f2eeaa;
+}
+.backgroundGral {
+    background-image:url('../img/backgroud/backgroud.jpg');
+}
+.backgrounMalbec {
+    background-image: url('../img/backgroud/backgroundMalbec.jpg');
+}
+.backgrounCabernet {
+    background-image: url('../img/backgroud/backgroundCabernet.jpg');
+}
+.backgrounTorrontes {
+    background-image: url('../img/backgroud/backgroundTorrontes.jpg');
+}
+.backgrounVisita {
+    background-image: url('../img/backgroud/backgroundVisita.jpg');
+}
+.backgrounDegustacion {
+    background-image: url('../img/backgroud/backgroundDegustacion.jpg');
+}
+.backgrounCircuito {
+    background-image: url('../img/backgroud/backgroundCircuito.jpg');
+}
+
+.formInput {
+    background-color: #262626;
+    color: #F3F2EE;
+    border: 1px solid #86212A;
+}
+
+.formSelect {
+    background-color: #262626;
+    color: #F3F2EE;
+    border: 1px solid #86212A;
+}
+
+.formTextarea {
+    background-color: #262626;
+    color: #F3F2EE;
+    border: 1px solid #86212A;
+}
+
+.formBtn {
+    background-color: #F3F2EE;
+    color: #86212A;
+    border: 1px solid #F3F2EE;
+}
+
+.cardClass {
+    background-color: #f3f2ee72;
+    transition: all 0.5s;
+}
+
+.cardClass:hover {
+    transform: scale(1.05);
+    background-color: #F3F2EE;
+    color: #262626;
+}
+
+.precio {
+    color: #86212A;
+}
+
+.btnClass {
+    background-color: #86212A;
+    color: #F3F2EE;
+    border: 2px solid #262626;
+}
