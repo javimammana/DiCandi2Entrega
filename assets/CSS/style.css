@@ -6,7 +6,6 @@
     list-style: none;
     text-decoration:none;
     font-family: 'Didact Gothic', sans-serif;
-    color: #F3F2EE;
     box-sizing: border-box;
 }
 
@@ -91,7 +90,6 @@
 
 
 
-/*  /Navegador Superior  */
 
 
 .footerBarClass {
@@ -169,6 +167,7 @@
     background-color: #262626;
     color: #F3F2EE;
     border: 1px solid #86212A;
+    height: 150px;
 }
 
 .formBtn {
