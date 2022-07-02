@@ -5,7 +5,7 @@
     padding: 0;
     list-style: none;
     text-decoration:none;
-    font-family: 'Didact Gothic', sans-serif !important;
+    font-family: 'Didact Gothic', sans-serif;
     color: #F3F2EE;
     box-sizing: border-box;
 }
@@ -47,11 +47,24 @@
     padding-right: 5%;
 }
 
+.navBar ul li {
+    margin: 5px 10px;
+}
+
 .navBar ul li a {
     text-decoration: none;
     color: #F3F2EE;
-
+    opacity: 70%;
 }
+
+.navBar ul li a:hover {
+    opacity: 100%;
+}
+
+.navActive {
+    opacity: 100% !important;
+}
+
 
 .navBar label {
     color: #F3F2EE;
@@ -69,23 +82,41 @@
     position: absolute;
     top: 0;
     margin-left: 5%;
-    box-shadow: 0px 0px 10px 4px rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 10px 4px rgba(0,0,0,0.25);
 }
 
 .navLogo img {
     height: 70px;
 }
 
+
+
 /*  /Navegador Superior  */
 
 
-.footerBarclass {
-    background-color: #86212A;
-    
+.footerBarClass {
+    background-color: #262626;
 }
 
 .footerBarClassTexto {
     color: #F3F2EE;
+    font-size: 12px;
+}
+.footerBarClassTexto:hover {
+    color: #F3F2EE;
+}
+
+.footerList {
+    padding: 0;
+}
+
+.copyright {
+    background-color: #86212A;
+    color: #f3f2ee82;
+}
+
+.copyright h6 {
+    font-size: 10px;
 }
 
 .mainClass {
